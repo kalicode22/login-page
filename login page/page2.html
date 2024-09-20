@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Simulation Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Add a background image to the body */
+        body {
+            background-image: url('tw-ai-cybersecurity-1200x628.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        /* Add some basic styling to the login form */
+        .login-form {
+            max-width: 300px;
+            margin: 40px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Add this to center the form elements */
+        }
+        
+        .login-form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        .login-form input[type="text"], .login-form input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+        }
+        
+        .login-form button[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .login-form button[type="submit"]:hover {
+            background-color: #3e8e41;
+        }
+        
+        .error-msg {
+  color: red; /* removed the '#' symbol, as it's not needed for color values */
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="login-form">
+            <img src="ai-artificial-intelligence-logo-in-hands-artificial-intelligence-and-machine-learning-concept-sphere-grid-wave-with-binary-code-big-data-innovation-technology-neural-networks-illustration-vector.jpg" alt="AI Simulation Logo" width="50" height="50">
+            <h2>Login to AI Simulation</h2>
+            <form id="login-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" placeholder="Username">
+                <br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Password">
+                <br><br>
+                <button id="login-btn" type="submit">Login</button>
+                <p id="error-msg"></p>
+            </form>
+        </div>
+    </div>
+    
+    <!-- Move the script tag to the bottom of the page for better performance -->
+    <script src="script.js"></script>
+</body>
+</html>
